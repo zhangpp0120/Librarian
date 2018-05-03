@@ -116,7 +116,7 @@ class App(QMainWindow):
         self.tb.addSeparator()
         btnSettings = QAction(QIcon("Pics/Gear-icon.png"),"Settings",self)
         self.tb.addAction(btnSettings)
-        # ??? the following 3 lines ???
+        # ??? the following 3 lines????
         spacer = QWidget()
         spacer.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         self.tb.addWidget(spacer)
